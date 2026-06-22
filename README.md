@@ -1,6 +1,6 @@
-# WideServices Dashboard
+# Tablero / Dashboard
 
-Tablero web para que los clientes de WideServices (plomería, electricidad, limpieza, mantenimiento) consulten el estado de sus solicitudes de servicio en tiempo real.
+Tablero web para que los clientes (plomería, electricidad, limpieza, mantenimiento) consulten el estado de sus solicitudes de servicio en tiempo real.
 
 **Stack:** HTML semántico + CSS puro (BEM) + JavaScript Vanilla. Sin frameworks, sin dependencias, sin build step.
 
@@ -8,15 +8,9 @@ Tablero web para que los clientes de WideServices (plomería, electricidad, limp
 
 ## Cómo ejecutar
 
-No requiere instalación ni backend. Dos formas:
+No requiere instalación ni backend.
 
 1. **Doble clic en `index.html`** — funciona directo desde el sistema de archivos.
-2. **Servidor local** (recomendado para evitar restricciones de `file://` en algunos navegadores):
-   ```bash
-   cd wideservices
-   python3 -m http.server 8080
-   # abrir http://localhost:8080
-   ```
 
 Estructura de archivos:
 ```
